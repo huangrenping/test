@@ -70,7 +70,7 @@
 		<mkdir dir="${build}" />
 		<!-- compile the java code from ${src} into ${build} -->
 		<javac srcdir="${src}" destdir="${build}" encoding="utf-8"
-			debug="on">
+			debug="on" includeantruntime="false">
 			<classpath refid="project.class.path" />
 		</javac>
 		<copy todir="${build}">
