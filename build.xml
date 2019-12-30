@@ -9,6 +9,8 @@
 	Legal:
 	Copyright (c) 2002-2003 INC. All Rights Reserved.
 	#添加注释
+	
+	
 	==============================================================================
 -->
 <project name="newgame" default="main" basedir=".">
